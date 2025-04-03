@@ -16,11 +16,11 @@ import org.junit.jupiter.api.BeforeAll;
 
 class UserServiceSimpleTest {
     
-    private static UserService user; // Make it static
+    private static UserService user; 
 
     @BeforeAll
     static void setUp() {
-        user = new UserService(); // Correctly initialize the shared UserService instance
+        user = new UserService(); 
     }
 
     @ParameterizedTest
